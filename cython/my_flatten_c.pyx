@@ -39,7 +39,7 @@ def my_flatten_cython(list_of_lists):
                 stack[stack_ptr].idx = idx + 1
                 stack[stack_ptr].lnth = length
                 idx, list_ptr = 0, elem
-                length = len(elem)
+                length = len(list_ptr)
             else:
                 accumulator.append(elem)
                 idx += 1
