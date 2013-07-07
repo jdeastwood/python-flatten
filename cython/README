@@ -1,5 +1,0 @@
-To compile run:
-    python setup.py build_ext --inplace
-
-then run:
-    python flatten_timeit.py
