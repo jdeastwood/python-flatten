@@ -17,6 +17,7 @@ def my_flatten_cython(list_of_lists):
     cdef int stack_ptr = 0
     cdef int idx = 0
     cdef int length = 0
+    cdef list list_ptr
     cdef type t
 
     stack[0].lst = <cpython.PyObject *>list_of_lists
